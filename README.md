@@ -1,6 +1,6 @@
-# monkeypoxnew
+# Monkeypox Detection App 
 
-A new Flutter project.
+A new Flutter project. This is the frontend part of an application on the idea of detection Monkeypox using the images of skin lesions.
 
 ## Getting Started
 
