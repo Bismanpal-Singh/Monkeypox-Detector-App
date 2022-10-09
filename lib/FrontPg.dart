@@ -11,18 +11,6 @@ class _FrontPgState extends State<FrontPg> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     /* extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 5,
-        title: Text('Monkeypox Detector'),
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pushNamed(context, 'login');
-          },
-          icon: Icon(Icons.arrow_back_rounded),
-        ),
-      ),*/
       body: Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -50,21 +38,21 @@ class _FrontPgState extends State<FrontPg> {
            ),
             ),
             Container(
-              padding: EdgeInsets.only(top : MediaQuery.of(context).size.height*0.52 ),
+              padding: EdgeInsets.only(top : MediaQuery.of(context).size.height*0.48 ),
               alignment: Alignment.center,
               child: Column(
                 children: [
                   Text(
-                    'MONEKYPOX DETECTOR',
+                    'MONEKYPOX\nDETECTOR',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 30,
+                      fontSize: 45,
                       fontWeight: FontWeight.w600,
                       fontFamily: 'worksans',
                     ),
                   ),
-                  SizedBox(height: 30),
+                  SizedBox(height: 50),
                   Text(
                     'Scan - Upload - Get Result',
                     style: TextStyle(
@@ -74,27 +62,27 @@ class _FrontPgState extends State<FrontPg> {
                     fontFamily: 'worksans',
                     ),
                   ),
-                  SizedBox(height: 40,),
-                  TextButton(
+                  SizedBox(height: 60,),
+                  FloatingActionButton.extended(
                     onPressed: (){
                       Navigator.pushNamed(context, 'login');
                     },
-                    child:
+                    backgroundColor: Color(0xff4c505b),
+                    label:
                     Text('Get Started',
                       style:TextStyle(
-                        decoration: TextDecoration.underline,
-                        fontSize: 30,
+                        fontSize: 25,
+                        fontWeight: FontWeight.w600,
                         fontFamily: 'worksans',
-                        color : Color(0xff4c505b),
-
+                        color : Colors.white,
                       ),
                     ),
+                    icon: Icon(Icons.arrow_forward_ios),
                   ),
                 ],
               ),
             ),
           ],
-
         ),
       ),
     );

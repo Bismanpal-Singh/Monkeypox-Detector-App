@@ -47,9 +47,9 @@ class _ResultState extends State<Result> {
                    'The Image is\nBeing Processed',
                     textAlign: TextAlign.center,
                    style: TextStyle(
-                     fontSize: 50,
-                     fontFamily: 'Buttler',
-                    fontWeight: FontWeight.w800,
+                     fontSize: 60,
+                     fontFamily: 'cool',
+                    fontWeight: FontWeight.w500,
                      color: Colors.black,
                   ),
                  ),
@@ -60,11 +60,12 @@ class _ResultState extends State<Result> {
                    ),
                    SizedBox(height:50),
                   Text(
-                   'Your result would be\nsent on the registered\nE-mail ID shortly',
+                   'The result would be\nsent on registered\nE-mail ID shortly',
                     textAlign: TextAlign.center,
                      style: TextStyle(
                      fontSize: 29,
                       fontFamily: 'worksans',
+                     fontWeight: FontWeight.w500,
                      color: Colors.black,
                    ),
                   ),
@@ -73,10 +74,10 @@ class _ResultState extends State<Result> {
               ),
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.only(top :MediaQuery.of(context).size.height*0.60, ),
+                padding: EdgeInsets.only(top :MediaQuery.of(context).size.height*0.65, ),
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, 'home');
+                    Navigator.pushNamed(context, 'instructionSlider');
                   },
                   child: Text('Back to home',
                       style: TextStyle(

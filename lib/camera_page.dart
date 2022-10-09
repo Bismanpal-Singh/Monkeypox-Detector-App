@@ -42,7 +42,7 @@ class _CameraPgState extends State<CameraPg> {
           title: Text('Monkeypox Detector'),
           leading: IconButton(
             onPressed: () {
-              Navigator.pushNamed(context, 'home');
+              Navigator.pushNamed(context, 'instructionSlider');
             },
             icon: Icon(Icons.arrow_back_rounded),
           ),
@@ -96,15 +96,15 @@ class _CameraPgState extends State<CameraPg> {
                   ),
               ),
               Container(
-                padding: EdgeInsets.only(top:MediaQuery.of(context).size.height*0.14),
+                padding: EdgeInsets.only(top:MediaQuery.of(context).size.height*0.123),
                 alignment: Alignment.topCenter,
                 child: Text(
-                  'Click a picture or Select\na Photo from Gallery',
+                  'Click a picture or \nSelect a Photo from Gallery',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 33,
-                    fontFamily: 'Buttler',
-                    fontWeight: FontWeight.w600,
+                    fontSize: 42,
+                    fontFamily: 'cool',
+                    fontWeight: FontWeight.w500,
                     color: Colors.black,
                   ),
                 ),

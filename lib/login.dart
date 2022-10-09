@@ -104,7 +104,7 @@ class _LoginPgState extends State<LoginPg> {
                             child: IconButton(
                               color: Colors.white,
                               onPressed: (){
-                                Navigator.pushNamed(context, 'home');
+                                Navigator.pushNamed(context, 'instructionSlider');
                               },
 
                               icon: Icon(Icons.arrow_forward_ios_outlined),
