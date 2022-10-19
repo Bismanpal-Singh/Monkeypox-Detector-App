@@ -2,15 +2,8 @@
 
 A new Flutter project. This is the frontend part of an application on the idea of detection Monkeypox using the images of skin lesions.
 
-## Getting Started
+## Screenshots 
 
-This project is a starting point for a Flutter application.
+This is the First Page of the application : 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![FrontPage](https://user-images.githubusercontent.com/83641114/196738391-a7e4b8bb-1276-485a-8549-181acd224112.PNG)
